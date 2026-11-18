@@ -1,0 +1,38 @@
+# dependências
+node_modules/
+.pnpm-store/
+
+# builds
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# variáveis de ambiente (nunca subir tokens!)
+.env
+.env*.local
+.env.development
+.env.production
+!.env.example
+
+# testes
+coverage/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# ferramentas / deploy
+.turbo/
+.vercel/
+
+# sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
